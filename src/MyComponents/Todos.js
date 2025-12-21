@@ -22,7 +22,7 @@ export default function Todos({ todos, deleteTodo, toggleComplete, updateTodo })
         <b> Pending: {todos.length - completed}</b> 
       </div>
 
-      <p><b style={{fontSize:"20px"}}>Check Todos status wise: </b>  
+      <p><b style={{fontSize:"1.25rem"}}>Check Todos status wise: </b>  
       <select
         className="form-select mb-3"
         onChange={e => setFilter(e.target.value)}
